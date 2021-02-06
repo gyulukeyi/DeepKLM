@@ -1,0 +1,22 @@
+n,condition,sentences,masked,Distance,Plurality,surprisal
+1,1,*철수는 시를 [MASK] 읽어주었다.,selo,short,singular,11.215812
+2,2,*철수는 시를 [MASK] 읽어주었다.,sangho,short,singular,23.04227
+3,3,철수와 민주는 시를 [MASK] 읽어주었다.,selo,long,plural,7.8859377
+4,4,철수와 민주는 시를 [MASK] 읽어주었다.,sangho,long,plural,20.181387
+5,1,마리는 철수와 민주가 [MASK] 사랑한다고 말했다.,selo,short,plural,0.6383452
+6,2,마리는 철수와 민주가 [MASK] 사랑한다고 말했다.,sangho,short,plural,11.877421
+7,3,철수와 민주는 마리와 [MASK] 사랑한다고 말했다.,selo,long,plural,4.767156
+8,4,철수와 민주는 마리와 [MASK] 사랑한다고 말했다.,sangho,long,plural,14.086793
+7,1,*철수와 민주는 마리가 [MASK] 사랑한다고 말했다.,selo,long,plural,1.2346326
+8,2,*철수와 민주는 마리가 [MASK] 사랑한다고 말했다.,selo,long,singular,9.419915
+9,2,박스플롯 시험용 테스트문장입니다.-1,selo,long,singular,9.419915
+10,2,박스플롯 시험용 테스트문장입니다.-2,selo,long,singular,20.419915
+11,2,박스플롯 시험용 테스트문장입니다.-3,selo,long,singular,13.419915
+12,2,박스플롯 시험용 테스트문장입니다.-4,sangho,long,singular,10.419915
+12,2,박스플롯 시험용 테스트문장입니다.-5,sangho,long,singular,1.419915
+12,2,박스플롯 시험용 테스트문장입니다.-6,sangho,long,singular,12.419915
+12,2,박스플롯 시험용 테스트문장입니다.-6,sangho,short,singular,30.9915
+12,2,박스플롯 시험용 테스트문장입니다.-7,selo,short,plural,2.15
+12,2,박스플롯 시험용 테스트문장입니다.-8,sangho,short,plural,11.334
+12,2,박스플롯 시험용 테스트문장입니다.-9,selo,short,singular,27.662
+12,2,박스플롯 시험용 테스트문장입니다.-11,selo,short,singular,0.662

@@ -1,0 +1,10 @@
+filepath = boxplot_sample.xlsx 
+factor1 = Neg position
+factor1_vals = embedded embedding
+factor2 = NPI position
+factor2_vals = embedded embedding
+variable_value = surprisal
+mask_vals = 잘 안
+notch = True
+title = NPI
+size = 222
