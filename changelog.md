@@ -1,5 +1,10 @@
 # DeepKLM
 
+## library_210207
+
+- Titles are fixed -- now it's no longer a "working" title
+- Added a colab version for the on-site demonstration
+
 ## library_201206
 
 - Library now organized with folders and better file naming (finally!)
