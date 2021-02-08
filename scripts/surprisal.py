@@ -173,10 +173,10 @@ def bert_token_surprisal(text, keywords, mask_model, tokenizer, device, printing
     
     tokenized_lines=[]
     lower = lambda x: " ".join(a if re.match(r".*\[MASK\].*", a) else a.lower() for a in x.split())
-    text = lower(text)
     if is_etri:
         for line in text.split("\n"):
             if line != "":
+                line = lower(line)
                 line = line.replace("[MASK]", " MASK ") # Make the [MASK] compatible with ETRI KorBERT
                 line = analyze_etri_morph(line, key)
                 resulting_words = [word.concat for word in line]
@@ -188,6 +188,7 @@ def bert_token_surprisal(text, keywords, mask_model, tokenizer, device, printing
     else:
         for line in text.split("\n"):
             if line != "":
+                line = lower(line)
                 line = "[CLS]" + line + "[SEP]" # Add special tokens
                 tokenized_line = tokenizer.tokenize(line)
                 if add_period and tokenized_line[-2] not in [".", "?", "!"]: # If no punctuation
