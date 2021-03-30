@@ -1,5 +1,9 @@
 # DeepKLM
 
+## library_210330
+
+- Introducing the light version -- it only reads a data file, batch-process it, and save the result.
+
 ## library_210207
 
 - Titles are fixed -- now it's no longer a "working" title
